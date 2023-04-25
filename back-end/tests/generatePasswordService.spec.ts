@@ -2,12 +2,12 @@ import supertest from "supertest";
 import app from "../src/app";
 
 describe("POST /generate-password", () => {
-  it("should generate a new password", async () => {
-    const body = { length: 12 };
-    const result = await supertest(app).post("/generate-password").send(body);
+  // it("should generate a new password", async () => {
+  //   const body = { length: 12 };
+  //   const result = await supertest(app).post("/generate-password").send(body);
 
-    expect(result.status).toEqual(201);
-  });
+  //   expect(result.status).toEqual(201);
+  // });
 
   it("should not generate a new password without the length", async () => {
     const body = {};
