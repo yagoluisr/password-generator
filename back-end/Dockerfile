@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /src/usr/
 
-COPY . . 
+COPY . .
 
 EXPOSE 5000
 
