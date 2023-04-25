@@ -1,7 +1,7 @@
 name: Pull Request on GitHub
 on: [pull_request]
 jobs:
-  Pull-Request:
+  PullRequest-GitHub:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
